@@ -22,8 +22,8 @@ Welcome to
 var rootCmd = &cobra.Command{
 	Use:   "tidbkube",
 	Short: "Program tidbkube is used for deploy k8s with kubeadm and bootstrap tidb environment.",
-	Long: fmt.Sprintf(`%v\nProgram tidbkube is an application to quickly set up a kubernentes cluster and initialize the
-kubernentes cluster machine environment according to the tidb database requirements`, headerStyle),
+	Long: fmt.Sprintf("%v\nProgram tidbkube is an application to quickly set up a kubernentes cluster and initialize"+
+		" the kubernentes cluster machine environment according to the tidb database requirements", headerStyle),
 	PreRun: func(cmd *cobra.Command, args []string) {
 		initProgramRun()
 	},

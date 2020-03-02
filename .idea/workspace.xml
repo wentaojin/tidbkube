@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3daa75db-f394-44d1-b169-5b05b7f35239" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/cli_bootstrap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/cli_execute.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/cli_init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/cli_init_print.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/cli_inspect.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/cli_join.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/cli_kube.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli/cli_reset.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/cmd_bootstrap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/cmd_execute.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/cmd_init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/cmd_init_print.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/cmd_inspect.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/cmd_join.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/cmd_reset.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/flag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/gen_ipvs_static_pod.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/gen_kubeadm_config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/gen_kubelet_config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/kube_config_temp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/kube_installer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/task_cmd.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/task_cmd_split.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/calico.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/flannel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/network.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/network_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/init_result_log.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/inspect_result_log.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/machine_sft_method.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/machine_sftp_client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/machine_ssh_client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/machine_ssh_method.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/machine_ssh_session.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/semaphore.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/util.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/root.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvscare" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +14,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cli/root.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/cli_execute.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="14" column="127" selection-start-line="14" selection-start-column="127" selection-end-line="14" selection-end-column="127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/cli_init.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="14" column="112" selection-start-line="14" selection-start-column="112" selection-end-line="14" selection-end-column="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/cli_init_print.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/cli_inspect.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="14" column="114" selection-start-line="14" selection-start-column="114" selection-end-line="14" selection-end-column="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cli/cli_join.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,131 +74,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cli/cli_kube.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
+            <state relative-caret-position="1277">
               <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
-              <folding>
-                <element signature="e#13#97#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/flag.go">
+        <entry file="file://$PROJECT_DIR$/cli/cli_reset.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-              <folding>
-                <element signature="n#!!block;n#PrintFlagCobraConfig#0" />
-              </folding>
+            <state relative-caret-position="-241">
+              <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/kube_installer.go">
+        <entry file="file://$PROJECT_DIR$/cli/cli_bootstrap.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2140">
-              <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!block;n#kubeMaster0EtcHostSet#0" />
-                <element signature="n#!!block;n#kubeMaster0Init#0" />
-                <element signature="n#!!block;n#joinMasterEtcHost#0" />
-                <element signature="n#!!block;n#lvScareStaticPodYamlGen#0" />
-                <element signature="n#!!block;n#joinWorkerIpvsRuleCreate#0" />
-                <element signature="n#!!block;n#joinWorkerCmd#0" />
-                <element signature="n#!!block;n#getJoinParamFromMaster0#0" />
-                <element signature="n#!!block;n#kubeadmCommand#0" />
-                <element signature="n#!!block;n#generatorCerts#0" />
-                <element signature="n#!!block;n#generatorToken#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/command/kube_config_temp.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/util.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1033">
-              <caret line="205" column="22" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!block;n#StringTwoSliceRepeatElem#0" />
-                <element signature="n#!!block;n#stringsContains#0" />
-                <element signature="n#!!block;n#StringSliceRemoveRepeat#0" />
-                <element signature="n#!!block;n#DiffStringSlices#0" />
-                <element signature="n#!!block;n#ColorPrintWithTerminalStyle#0" />
-                <element signature="n#!!block;n#Cmp#0" />
-                <element signature="n#!!block;n#intToIP#0" />
-                <element signature="n#!!block;n#NextIP#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/cmd_join.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="e#17#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/task_cmd.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
-              <folding>
-                <element signature="n#!!block;n#fullTaskCommandExec#0" />
-                <element signature="n#!!block;n#flagListTaskCommandExec#0" />
-                <element signature="n#!!block;n#flagSkipTaskCommandExec#0" />
-                <element signature="n#!!block;n#flagTaskCommandExec#0" />
-                <element signature="n#!!block;n#ExecTaskCommandMain#0" />
-                <element signature="n#!!block;n#ExecSFTPCommandMain#0" />
-                <element signature="n#!!block;n#ExecSSHCommandMain#0" />
-                <element signature="n#!!block;n#remoteHostFileMd5SumCheck#0" />
-                <element signature="n#!!block;n#localFileMd5Sum#0" />
-                <element signature="n#!!block;n#remoteFileExist#0" />
-                <element signature="n#!!block;n#formatStyleWithJSON#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/task_cmd_split.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="154" column="41" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
-              <folding>
-                <element signature="n#!!block;n#TaskInspectCommandSplit#0" />
-                <element signature="n#!!block;n#TaskBootstrapCommandSplit#0" />
-                <element signature="n#!!block;n#TaskInitCommandSplit#0" />
-                <element signature="n#!!block;n#TaskResetCommandSplit#0" />
-                <element signature="n#!!block;n#TaskJoinWorkerCommandSplit#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cli/root.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="297">
+              <caret line="14" column="124" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
             </state>
           </provider>
         </entry>
@@ -304,16 +208,16 @@
         <option value="$PROJECT_DIR$/cli/cli_inspect.go" />
         <option value="$PROJECT_DIR$/cli/cli_join.go" />
         <option value="$PROJECT_DIR$/cli/cli_reset.go" />
-        <option value="$PROJECT_DIR$/cli/root.go" />
         <option value="$PROJECT_DIR$/command/flag.go" />
         <option value="$PROJECT_DIR$/command/task_cmd_split.go" />
         <option value="$PROJECT_DIR$/cli/cli_kube.go" />
         <option value="$PROJECT_DIR$/command/kube_installer.go" />
         <option value="$PROJECT_DIR$/command/cmd_join.go" />
+        <option value="$PROJECT_DIR$/cli/root.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="192" />
     <option name="y" value="53" />
     <option name="width" value="1530" />
@@ -779,65 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cli/cli_bootstrap.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="124" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/cli_execute.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="14" column="127" selection-start-line="14" selection-start-column="127" selection-end-line="14" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/cli_init.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="112" selection-start-line="14" selection-start-column="112" selection-end-line="14" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/cli_init_print.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/cli_inspect.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="14" column="114" selection-start-line="14" selection-start-column="114" selection-end-line="14" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/cli_reset.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/root.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/flag.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!block;n#PrintFlagCobraConfig#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/util.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1033">
@@ -855,26 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cli/cli_join.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="15" column="112" selection-start-line="15" selection-start-column="112" selection-end-line="15" selection-end-column="112" />
-          <folding>
-            <element signature="e#13#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/cli_kube.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
-          <folding>
-            <element signature="e#13#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/command/task_cmd_split.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -885,26 +710,6 @@
             <element signature="n#!!block;n#TaskInitCommandSplit#0" />
             <element signature="n#!!block;n#TaskResetCommandSplit#0" />
             <element signature="n#!!block;n#TaskJoinWorkerCommandSplit#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/task_cmd.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!block;n#fullTaskCommandExec#0" />
-            <element signature="n#!!block;n#flagListTaskCommandExec#0" />
-            <element signature="n#!!block;n#flagSkipTaskCommandExec#0" />
-            <element signature="n#!!block;n#flagTaskCommandExec#0" />
-            <element signature="n#!!block;n#ExecTaskCommandMain#0" />
-            <element signature="n#!!block;n#ExecSFTPCommandMain#0" />
-            <element signature="n#!!block;n#ExecSSHCommandMain#0" />
-            <element signature="n#!!block;n#remoteHostFileMd5SumCheck#0" />
-            <element signature="n#!!block;n#localFileMd5Sum#0" />
-            <element signature="n#!!block;n#remoteFileExist#0" />
-            <element signature="n#!!block;n#formatStyleWithJSON#0" />
           </folding>
         </state>
       </provider>
@@ -929,6 +734,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/command/kube_config_temp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/command/kube_installer.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2140">
@@ -948,10 +760,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/command/kube_config_temp.go">
+    <entry file="file://$PROJECT_DIR$/command/flag.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="129" />
+        <state relative-caret-position="551">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!block;n#PrintFlagCobraConfig#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/task_cmd.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!block;n#fullTaskCommandExec#0" />
+            <element signature="n#!!block;n#flagListTaskCommandExec#0" />
+            <element signature="n#!!block;n#flagSkipTaskCommandExec#0" />
+            <element signature="n#!!block;n#flagTaskCommandExec#0" />
+            <element signature="n#!!block;n#ExecTaskCommandMain#0" />
+            <element signature="n#!!block;n#ExecSFTPCommandMain#0" />
+            <element signature="n#!!block;n#ExecSSHCommandMain#0" />
+            <element signature="n#!!block;n#remoteHostFileMd5SumCheck#0" />
+            <element signature="n#!!block;n#localFileMd5Sum#0" />
+            <element signature="n#!!block;n#remoteFileExist#0" />
+            <element signature="n#!!block;n#formatStyleWithJSON#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/cli_bootstrap.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="124" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/cli_execute.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="14" column="127" selection-start-line="14" selection-start-column="127" selection-end-line="14" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/cli_init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="112" selection-start-line="14" selection-start-column="112" selection-end-line="14" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/cli_init_print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/cli_inspect.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="14" column="114" selection-start-line="14" selection-start-column="114" selection-end-line="14" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/cli_join.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="15" column="112" selection-start-line="15" selection-start-column="112" selection-end-line="15" selection-end-column="112" />
+          <folding>
+            <element signature="e#13#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/cli_kube.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1277">
+          <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/cli_reset.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-241">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/root.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
         </state>
       </provider>
     </entry>
