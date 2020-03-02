@@ -113,3 +113,28 @@ Reset 集群需要把所有存在 master、worker 写上
 --remove-kube-component    清理集群，只包括kubernenets binary
 ```
 
+- 结果输出（单主多worker）
+
+```
+->kubectl get pod --all-namespaces -n kube-system
+NAMESPACE     NAME                                       READY   STATUS    RESTARTS   AGE
+kube-system   calico-kube-controllers-688c5dc8c7-7nq6l   1/1     Running   0          15h
+kube-system   calico-node-bn5lb                          1/1     Running   0          15h
+kube-system   calico-node-gz9z4                          1/1     Running   0          88m
+kube-system   calico-node-qq47b                          1/1     Running   0          15h
+kube-system   calico-node-wss86                          1/1     Running   0          15h
+kube-system   coredns-5644d7b6d9-thh4w                   1/1     Running   0          15h
+kube-system   coredns-5644d7b6d9-vdzfr                   1/1     Running   0          15h
+kube-system   etcd-test3                                 1/1     Running   0          15h
+kube-system   kube-apiserver-test3                       1/1     Running   0          15h
+kube-system   kube-controller-manager-test3              1/1     Running   0          15h
+kube-system   kube-ipvs-lvscare-test1                    1/1     Running   0          15h
+kube-system   kube-ipvs-lvscare-test2                    1/1     Running   0          15h
+kube-system   kube-ipvs-lvscare-test4                    1/1     Running   0          15h
+kube-system   kube-proxy-6qzgt                           1/1     Running   0          92m
+kube-system   kube-proxy-7krfb                           1/1     Running   0          15h
+kube-system   kube-proxy-9cwr5                           1/1     Running   0          15h
+kube-system   kube-proxy-hz6rm                           1/1     Running   0          15h
+kube-system   kube-scheduler-test3                       1/1     Running   0          15h
+```
+
