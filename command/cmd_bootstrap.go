@@ -56,7 +56,7 @@ cat > /etc/docker/daemon.json <<EOF
   ]
 }
 EOF`,
-		BootstrapEnableDocker:     `if [ ! -d /etc/systemd/system/docker.service.d; ]; then mkdir -p /etc/systemd/system/docker.service.d; fi; && systemctl daemon-reload && systemctl restart docker && systemctl enable docker`,
+		BootstrapEnableDocker:     `if [ ! -d /etc/systemd/system/docker.service.d ]; then mkdir -p /etc/systemd/system/docker.service.d; fi && systemctl daemon-reload && systemctl restart docker && systemctl enable docker`,
 		BootstrapChronyServer:     `sed -i 's/^.*centos.pool.ntp.org/#&/g' /etc/chrony.conf && sed -i 's/^#\(.*centos.pool.ntp.org\)/\1/' /etc/chrony.conf`,
 		StartChronyServer:         `systemctl start chronyd.service && systemctl enable chronyd.service`,
 		BootstrapDisableFirewalld: "systemctl stop firewalld && systemctl disable firewalld",
