@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3daa75db-f394-44d1-b169-5b05b7f35239" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/kube_installer.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/kube_installer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,52 +16,6 @@
         <option value="Go File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>mkdir</find>
-      <find>10.96.0.1</find>
-      <find>VirtualIP</find>
-      <find>lvscare</find>
-      <find>Template</find>
-      <find>VIP</find>
-      <find>ipvs_rule_create</find>
-      <find>CmdSingleHostExec</find>
-      <find>FlagListTaskCommandExec</find>
-      <find>cmdSingleHostExec</find>
-      <find>FlagCobra</find>
-      <find>clean_docker_images</find>
-      <find>kubeadm</find>
-      <find>cgroupDriver</find>
-      <find>KubeletConfiguration</find>
-      <find>CopyKubernentesConfig</find>
-      <find>Master host IP not allow empty</find>
-      <find>/network-plugin-config.yaml</find>
-      <find>KubeadmMaster0Config</find>
-      <find>kubeadm_master0_config</find>
-      <find>\$HOME</find>
-      <find>$HOME</find>
-      <find>kubeadm_init_master0</find>
-      <find>CopyKubeadmMaster0Config</find>
-      <find>copy_kubeadm_master0_config</find>
-      <find>JoinWorkerEtcHostsSet</find>
-      <find>initCmd</find>
-      <find>Kubernentes environment init hosts slice</find>
-      <find>/bin/cp -rf</find>
-      <find>lv</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>f</replace>
-      <replace>&quot;3&quot;</replace>
-      <replace>CobraFlag</replace>
-      <replace>cobraFlag</replace>
-      <replace>log</replace>
-      <replace>cmdSingleHostExec</replace>
-      <replace>SingleHostTaskCommandExec</replace>
-      <replace>$HOME</replace>
-      <replace>command.FlagCobra</replace>
-      <replace>kubeCmd</replace>
-    </replaceStrings>
   </component>
   <component name="GOROOT" path="C:\Marvin\Golang\GoRoot" />
   <component name="Git.Settings">
@@ -191,5 +146,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="293" y="96" key="#GOROOT/0.0.1536.824@0.0.1536.824" timestamp="1587877816351" />
+    <state x="369" y="154" width="662" height="566" key="find.popup" timestamp="1587879665342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="369" y="154" width="662" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587879665342" />
   </component>
 </project>

@@ -57,7 +57,7 @@ EOF`, Kubeadm10ConfTemp)
 		mkdirKubeletDir := fmt.Sprintf("if [ ! -d /var/lib/kubelet ]; then mkdir -p /var/lib/kubelet; fi")
 		SingleHostTaskCommandExec("mkdir_kubelet_dir", host, mkdirKubeletDir, cobraFlag).ResultOutputCheckAndProcessExit("mkdir_kubelet_dir")
 
-		getCgroupDriver := fmt.Sprintf("echo $(docker info|grep Cg)|awk -F ':' '{print $2}'|awk '{print $1}'")
+		getCgroupDriver := fmt.Sprintf("systemctl restart docker && echo $(docker info|grep Cg)|awk -F ':' '{print $2}'|awk '{print $1}'")
 		sshResult := SingleHostTaskCommandExec("get_docker_cgroup_driver", host, getCgroupDriver, cobraFlag)
 		sshResult.ResultOutputCheckAndProcessExit("get_docker_cgroup_driver")
 		cgroupDriver := sshResult.ResultOutputCgroupDriver()
