@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3daa75db-f394-44d1-b169-5b05b7f35239" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command/cmd_bootstrap.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/cmd_bootstrap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/task_cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/task_cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tidbkube" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +70,6 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="190" />
-    <option name="y" value="51" />
-    <option name="width" value="1530" />
-    <option name="height" value="930" />
   </component>
   <component name="ProjectId" id="1b43swHTd90SI4RthyaI0iP5aGG" />
   <component name="ProjectLevelVcsManager">

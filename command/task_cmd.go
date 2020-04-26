@@ -176,7 +176,7 @@ func ExecSFTPCommandMain(taskName string, hostSlice []string, cobraFlag FlagCobr
 	sftpHostSlice := remoteHostFileMd5SumCheck(hostSlice, cobraFlag)
 
 	fileDir := filepath.Dir(cobraFlag.PkgPath)
-	createDirCmd := fmt.Sprintf(`if [ ! -d %s ]; then mkdir %s; fi && echo yes`, fileDir, fileDir)
+	createDirCmd := fmt.Sprintf(`if [ ! -d %s ]; then mkdir -p %s; fi && echo yes`, fileDir, fileDir)
 	checkTaskName := fmt.Sprintf("check_dir_%s_exist", fileDir)
 	ExecSSHCommandMain(checkTaskName, sftpHostSlice, createDirCmd, cobraFlag).ResultOutputCheckAndProcessExit(checkTaskName)
 
