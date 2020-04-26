@@ -67,6 +67,11 @@ EOF`, Kubeadm10ConfTemp)
 EOF`, string(TemplateKubelet(cgroupDriver)))
 		SingleHostTaskCommandExec("generate_kubelet_config", host, generateKubeletConfig, cobraFlag).ResultOutputCheckAndProcessExit("generate_kubelet_config")
 
+		generateSysconfigKubelet := fmt.Sprintf(`cat <<EOF > /etc/sysconfig/kubelet
+KUBELET_EXTRA_ARGS=--cgroup-driver=%v
+EOF`, cgroupDriver)
+		SingleHostTaskCommandExec("generate_kubelet_extra_args", host, generateSysconfigKubelet, cobraFlag).ResultOutputCheckAndProcessExit("generate_kubelet_extra_args")
+
 		systemDaemonReload := fmt.Sprintf("systemctl daemon-reload")
 		SingleHostTaskCommandExec("system_daemon_reload", host, systemDaemonReload, cobraFlag).ResultOutputCheckAndProcessExit("system_daemon_reload")
 

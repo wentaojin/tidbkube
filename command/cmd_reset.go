@@ -35,6 +35,7 @@ type ResetCommandTask struct {
 	CleanKubeletServiceConf  string `json:"clean_kubelet_service_conf"`
 	CleanKubeadm10Conf       string `json:"clean_kubeadm_10_conf"`
 	CleanKubeletConfig       string `json:"clean_kubelet_config"`
+	CleanKubeletSysconfig    string `json:"clean_kubelet_sysconfig"`
 	SystemDaemonReload       string `json:"system_daemon_reload"`
 	CleanKubeComponent       string `json:"clean_kube_component"`
 	CleanDockerImages        string `json:"clean_docker_images"`
@@ -58,6 +59,7 @@ func TaskResetCommand() *ResetCommandTask {
 		CleanKubeletServiceConf: `rm -rf /etc/systemd/system/kubelet.service`,
 		CleanKubeadm10Conf:      `rm -rf /etc/systemd/system/kubelet.service.d/10-kubeadm.conf`,
 		CleanKubeletConfig:      `rm -rf /var/lib/kubelet/config.yaml`,
+		CleanKubeletSysconfig:   `rm -rf /etc/sysconfig/kubelet`,
 		SystemDaemonReload:      `systemctl daemon-reload`,
 		CleanKubeAll:            "",
 		CleanKubeComponent: `rm -rf /usr/bin/kubeadm && rm -rf /usr/bin/kubectl && rm -rf /usr/bin/kubelet && rm -rf

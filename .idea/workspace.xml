@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3daa75db-f394-44d1-b169-5b05b7f35239" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/cmd_reset.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/cmd_reset.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/command/kube_installer.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/kube_installer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
