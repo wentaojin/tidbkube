@@ -7,7 +7,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/WentaoJin/tidbkube/util"
+	"github.com/wentaojin/tidbkube/util"
 )
 
 const TemplateLVScare = string(`apiVersion: v1

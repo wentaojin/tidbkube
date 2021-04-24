@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/WentaoJin/tidbkube/network"
+	"github.com/wentaojin/tidbkube/network"
 )
 
 const KubeadmDefaultTemplate = string(`apiVersion: kubeadm.k8s.io/v1beta1

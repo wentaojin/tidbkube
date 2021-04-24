@@ -3,8 +3,8 @@ package cli
 import (
 	"fmt"
 
-	"github.com/WentaoJin/tidbkube/command"
 	"github.com/spf13/cobra"
+	"github.com/wentaojin/tidbkube/command"
 )
 
 // kubeCmd define cli program command

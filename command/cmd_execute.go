@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/WentaoJin/tidbkube/util"
+	"github.com/wentaojin/tidbkube/util"
 )
 
 // ExecuteCommand function

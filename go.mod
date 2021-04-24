@@ -1,4 +1,4 @@
-module github.com/WentaoJin/tidbkube
+module github.com/wentaojin/tidbkube
 
 go 1.12
 

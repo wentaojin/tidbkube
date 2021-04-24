@@ -16,7 +16,7 @@ limitations under the License.
 package main
 
 import (
-	"github.com/WentaoJin/tidbkube/cli"
+	"github.com/wentaojin/tidbkube/cli"
 )
 
 func main() {

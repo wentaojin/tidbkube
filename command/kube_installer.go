@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/WentaoJin/tidbkube/network"
+	"github.com/wentaojin/tidbkube/network"
 
-	"github.com/WentaoJin/tidbkube/util"
+	"github.com/wentaojin/tidbkube/util"
 )
 
 // kubeadm command type

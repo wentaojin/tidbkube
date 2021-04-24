@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/WentaoJin/tidbkube/command"
+	"github.com/wentaojin/tidbkube/command"
 
 	"github.com/spf13/cobra"
 )

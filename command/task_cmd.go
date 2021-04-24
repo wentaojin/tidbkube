@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/WentaoJin/tidbkube/util"
+	"github.com/wentaojin/tidbkube/util"
 )
 
 // TaskCommandExec function,this function is mainly used to execute a series of only cobra inspect and bootstrap

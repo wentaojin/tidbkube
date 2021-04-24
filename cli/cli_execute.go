@@ -3,8 +3,8 @@ package cli
 import (
 	"fmt"
 
-	"github.com/WentaoJin/tidbkube/command"
 	"github.com/spf13/cobra"
+	"github.com/wentaojin/tidbkube/command"
 )
 
 // executeCmd define cli program command,mainly used for manual execute shell command

@@ -7,7 +7,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/WentaoJin/tidbkube/util"
+	"github.com/wentaojin/tidbkube/util"
 )
 
 const TemplateText = string(`apiVersion: kubeadm.k8s.io/v1beta1

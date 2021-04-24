@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/WentaoJin/tidbkube/command"
+	"github.com/wentaojin/tidbkube/command"
 )
 
 func main() {

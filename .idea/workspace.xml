@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3daa75db-f394-44d1-b169-5b05b7f35239" name="Default Changelist" comment="" />
+    <list default="true" id="3daa75db-f394-44d1-b169-5b05b7f35239" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_bootstrap.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_bootstrap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_execute.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_execute.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_init.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_init_print.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_init_print.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_inspect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_join.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_join.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_kube.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_kube.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/cli_reset.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_reset.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/root.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/cmd_execute.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/cmd_execute.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/cmd_init_print.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/cmd_init_print.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/gen_ipvs_static_pod.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/gen_ipvs_static_pod.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/gen_kubeadm_config.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/gen_kubeadm_config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/kube_installer.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/kube_installer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/task_cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/task_cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_func.go" beforeDir="false" afterPath="$PROJECT_DIR$/test_func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tidbkube.go" beforeDir="false" afterPath="$PROJECT_DIR$/tidbkube.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +56,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -61,7 +85,7 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/test_func.go" />
-      <package value="github.com/WentaoJin/tidbkube" />
+      <package value="github.com/wentaojin/tidbkube" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -70,38 +94,38 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/test_log.go" />
-      <package value="github.com/WentaoJin/tidbkube" />
+      <package value="github.com/wentaojin/tidbkube" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetNewSetDelete in github.com/WentaoJin/tidbkube/netns" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGetNewSetDelete in github.com/wentaojin/tidbkube/netns" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="tidbkube" />
       <working_directory value="$PROJECT_DIR$/netns" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/WentaoJin/tidbkube/netns" />
+      <package value="github.com/wentaojin/tidbkube/netns" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestGetNewSetDelete$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestNewNetwork in github.com/WentaoJin/tidbkube/network" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNewNetwork in github.com/wentaojin/tidbkube/network" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="tidbkube" />
       <working_directory value="$PROJECT_DIR$/network" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/WentaoJin/tidbkube/network" />
+      <package value="github.com/wentaojin/tidbkube/network" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestNewNetwork$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestNone in github.com/WentaoJin/tidbkube/netns" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNone in github.com/wentaojin/tidbkube/netns" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="tidbkube" />
       <working_directory value="$PROJECT_DIR$/netns" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/WentaoJin/tidbkube/netns" />
+      <package value="github.com/wentaojin/tidbkube/netns" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestNone$" />
@@ -110,16 +134,16 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build test_func.go" />
-        <item itemvalue="Go Test.TestGetNewSetDelete in github.com/WentaoJin/tidbkube/netns" />
-        <item itemvalue="Go Test.TestNone in github.com/WentaoJin/tidbkube/netns" />
-        <item itemvalue="Go Test.TestNewNetwork in github.com/WentaoJin/tidbkube/network" />
+        <item itemvalue="Go Test.TestGetNewSetDelete in github.com/wentaojin/tidbkube/netns" />
+        <item itemvalue="Go Test.TestNone in github.com/wentaojin/tidbkube/netns" />
+        <item itemvalue="Go Test.TestNewNetwork in github.com/wentaojin/tidbkube/network" />
         <item itemvalue="Go Build.go build test_log.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNewNetwork_in_github_com_WentaoJin_tidbkube_network - 2020.02.18 at 12h 51m 00s.xml">
-      <configuration name="TestNewNetwork in github.com/WentaoJin/tidbkube/network" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestNewNetwork_in_github_com_wentaojin_tidbkube_network - 2020.02.18 at 12h 51m 00s.xml">
+      <configuration name="TestNewNetwork in github.com/wentaojin/tidbkube/network" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -139,13 +163,9 @@
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="293" y="96" key="#GOROOT" timestamp="1587877816351">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="186" y="48" width="794" height="632" key="find.popup" timestamp="1619229437026">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="293" y="96" key="#GOROOT/0.0.1536.824@0.0.1536.824" timestamp="1587877816351" />
-    <state x="369" y="154" width="662" height="566" key="find.popup" timestamp="1587879665342">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="369" y="154" width="662" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587879665342" />
+    <state x="186" y="48" width="794" height="632" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1619229437026" />
   </component>
 </project>
