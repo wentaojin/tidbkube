@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3daa75db-f394-44d1-b169-5b05b7f35239" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/cli_bootstrap.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_bootstrap.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/cli_execute.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_execute.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/cli_init.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_init.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/cli_init_print.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_init_print.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/cli_inspect.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_inspect.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/cli_join.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_join.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/cli_kube.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_kube.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/cli_reset.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/cli_reset.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cli/root.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command/cmd_execute.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/cmd_execute.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command/cmd_init_print.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/cmd_init_print.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command/gen_ipvs_static_pod.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/gen_ipvs_static_pod.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command/gen_kubeadm_config.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/gen_kubeadm_config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command/kube_installer.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/kube_installer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command/task_cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/command/task_cmd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_func.go" beforeDir="false" afterPath="$PROJECT_DIR$/test_func.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tidbkube.go" beforeDir="false" afterPath="$PROJECT_DIR$/tidbkube.go" afterDir="false" />
-    </list>
+    <list default="true" id="3daa75db-f394-44d1-b169-5b05b7f35239" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
